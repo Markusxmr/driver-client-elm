@@ -10,10 +10,10 @@ Materials for driving exam.
 
 
 ### Install:
-Clone this repo into a new project folder, e.g. `driving-materials`:
+Clone this repo into a new project folder, e.g. `driving-materials-client`:
 ```
-git clone https://github.com/Markusxmr/driving-materials driving-materials
-cd driving-materials
+git clone https://github.com/Markusxmr/driving-materials driving-materials-client
+cd driving-materials-client 
 ```
 
 Install all dependencies using the handy `reinstall` script:
