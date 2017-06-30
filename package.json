@@ -1,0 +1,42 @@
+{
+  "name": "driving_materials-client",
+  "description": "Prometna pravila",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Marko Rendulić",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Markusxmr/driving-materials-client"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --host 0.0.0.0 --port 8080 --hot --inline",
+    "build": "rimraf dist && webpack ",
+    "reinstall": "npm i rimraf && rimraf elm-stuff && rimraf node_modules && npm i && elm package install",
+    "local": "http-server dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "elm": "^0.18.0",
+    "elm-css-webpack-loader": "^3.1.0",
+    "elm-hot-loader": "^0.5.4",
+    "elm-webpack-loader": "^4.2.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.29.0",
+    "http-server": "^0.9.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^1.1.1",
+    "rimraf": "^2.5.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-merge": "^3.0.0"
+  }
+}

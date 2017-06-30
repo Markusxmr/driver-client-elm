@@ -1,0 +1,54 @@
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande',
+    'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.nav > button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.chapters-container {
+  margin: 0 auto;
+  width: 500px;
+}
+.chapter-item {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.chapter-left {
+  cursor: pointer;
+  float: left;
+}
+.chapter-right {
+  float: right;
+}
+.questions-container {
+  margin: 0 auto;
+  width: 550px;
+}
+.question-item {
+  position: relative;
+  transition: 0.3s;
+}
+.questions-left {
+  text-align: left;
+}
+.nav-button {
+  color: inherit;
+  text-decoration: none;
+}
+.nav > button a {
+  color: inherit;
+  text-decoration: none;
+}

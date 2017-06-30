@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "summary": "Example using `elm-webpack-loader`.",
+  "repository": "https://github.com/jiwhiz/elm-bootstrap-webpack-starter.git",
+  "license": "MIT",
+  "source-directories": [
+    "src/elm",
+    "src/elm/Data",
+    "src/elm/Request",
+    "src/elm/View",
+    "src/elm/Page",
+    "src/elm/Page/Home",
+    "src/elm/Page/Learn",
+    "src/elm/Page/Tests",
+    "src/elm/Page/Chapters",
+    "src/elm/Page/Questions",
+    "src/elm/Page/Answers"
+  ],
+  "exposed-modules": [],
+  "dependencies": {
+    "NoRedInk/elm-decode-pipeline": "3.0.0 <= v < 4.0.0",
+    "debois/elm-mdl": "8.0.0 <= v < 9.0.0",
+    "elm-community/json-extra": "2.3.0 <= v < 3.0.0",
+    "elm-lang/core": "5.0.0 <= v < 6.0.0",
+    "elm-lang/html": "2.0.0 <= v < 3.0.0",
+    "elm-lang/http": "1.0.0 <= v < 2.0.0",
+    "elm-lang/navigation": "2.1.0 <= v < 3.0.0",
+    "evancz/elm-markdown": "3.0.1 <= v < 4.0.0",
+    "evancz/url-parser": "2.0.1 <= v < 3.0.0",
+    "fbonetti/elm-phoenix-socket": "2.1.0 <= v < 3.0.0",
+    "lukewestby/elm-http-builder": "5.1.0 <= v < 6.0.0"
+  },
+  "elm-version": "0.18.0 <= v < 0.19.0"
+}
